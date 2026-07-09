@@ -10,11 +10,11 @@ export function Footer() {
           {/* <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
             <Logo variant="light" />
           </div> */}
-          <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
+        <div className="h-24 w-24 rounded-full overflow-hidden bg-white shadow-lg">
   <img
     src="/Imges/90.jpeg"
     alt="The M.T School System"
-    className="h-30 w-auto"
+    className="h-full w-full object-cover"
   />
 </div>
           <p className="text-sm text-white/70 leading-relaxed">
