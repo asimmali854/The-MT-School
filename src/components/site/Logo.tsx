@@ -7,7 +7,7 @@ export function Logo({ variant = "dark" }: { variant?: "dark" | "light" }) {
       <div className="relative shrink-0">
         <div className="absolute inset-0 rounded-full bg-white shadow-soft ring-1 ring-primary/10" />
         <img
-          src={logo.url}
+          src="/Imges/90.jpeg"
           alt="The M.T School System"
           width={56}
           height={56}
