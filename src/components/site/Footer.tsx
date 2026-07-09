@@ -12,7 +12,7 @@ export function Footer() {
           </div> */}
           <div>
   <img
-    src="/Imges/76.png"
+    src="/Imges/90.jpeg"
     alt="The M.T School System"
     className="h-16 w-auto"
   />
