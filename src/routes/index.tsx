@@ -54,7 +54,7 @@ function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-14 lg:grid-cols-12 lg:gap-10 items-center">
         <div className="lg:col-span-6 animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/15 text-white ring-1 ring-white/25 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em]">
-            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 2026
+            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 20266
           </span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] text-white">
             Building Bright Futures Through{" "}
