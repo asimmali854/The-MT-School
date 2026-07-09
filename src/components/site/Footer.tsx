@@ -14,7 +14,7 @@ export function Footer() {
   <img
     src="/Imges/90.jpeg"
     alt="The M.T School System"
-    className="h-16 w-auto"
+    className="h-30 w-auto"
   />
 </div>
           <p className="text-sm text-white/70 leading-relaxed">
