@@ -10,7 +10,7 @@ export function Footer() {
           {/* <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
             <Logo variant="light" />
           </div> */}
-          <div>
+          <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
   <img
     src="/Imges/90.jpeg"
     alt="The M.T School System"
