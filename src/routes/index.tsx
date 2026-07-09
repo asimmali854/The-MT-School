@@ -108,7 +108,7 @@ function Hero() {
             <img src="/Imges/76.png" alt="STEM & robotics" width={1400} height={300} loading="lazy" className="h-40 w-full object-cover" />
           </div>
           <div className="hidden sm:flex absolute -top-6 -right-6 items-center gap-3 rounded-2xl glass px-4 py-3 shadow-soft">
-            <img src="/images/90 .jpeg" alt="" className="h-10 w-10 rounded-full" />
+            <img src="/Imges/90.jpeg" alt="" className="h-10 w-10 rounded-full" />
             <div className="text-xs">
               <div className="font-semibold text-primary">Est. 2021</div>
               <div className="text-muted-foreground">Karachi, Pakistan</div>
