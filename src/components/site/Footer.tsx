@@ -7,9 +7,16 @@ export function Footer() {
     <footer className="mt-24 bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid gap-12 lg:grid-cols-4">
         <div className="lg:col-span-1 space-y-5">
-          <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
+          {/* <div className="[&_a]:!text-white [&_.text-primary]:!text-white [&_.text-secondary]:!text-white/70">
             <Logo variant="light" />
-          </div>
+          </div> */}
+          <div>
+  <img
+    src="/Imges/76.png"
+    alt="The M.T School System"
+    className="h-16 w-auto"
+  />
+</div>
           <p className="text-sm text-white/70 leading-relaxed">
             A revolutionary way to educate — building bright futures through
             innovation, academic excellence, and character development.
