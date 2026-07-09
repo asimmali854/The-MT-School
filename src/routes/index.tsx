@@ -54,7 +54,7 @@ function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-14 lg:grid-cols-12 lg:gap-10 items-center">
         <div className="lg:col-span-6 animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/15 text-white ring-1 ring-white/25 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em]">
-            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 20266
+            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 2026
           </span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] text-white">
             Building Bright Futures Through{" "}
@@ -108,7 +108,7 @@ function Hero() {
             <img src="/Imges/76.png" alt="STEM & robotics" width={1400} height={300} loading="lazy" className="h-40 w-full object-cover" />
           </div>
           <div className="hidden sm:flex absolute -top-6 -right-6 items-center gap-3 rounded-2xl glass px-4 py-3 shadow-soft">
-            <img src={logoAsset.url} alt="" className="h-10 w-10 rounded-full" />
+            <img src="/images/90 .jpeg" alt="" className="h-10 w-10 rounded-full" />
             <div className="text-xs">
               <div className="font-semibold text-primary">Est. 2021</div>
               <div className="text-muted-foreground">Karachi, Pakistan</div>
