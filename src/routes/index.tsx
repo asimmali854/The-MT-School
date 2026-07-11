@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   ArrowRight, GraduationCap, Users, ShieldCheck, BookOpen, Cpu, Bot,
   Monitor, Sparkles, Palette, Heart, Star, Quote, Calendar, MapPin, Phone,
-  Beaker, Library, Trees, Camera, Video,
+  Beaker, Library, Trees, Camera, Video,Trophy,Goal,
 } from "lucide-react";
 import logoAsset from "@/assets/mt-logo.asset.json";
 import heroClassroom from "@/assets/hero-classroom.jpg";
@@ -54,7 +54,7 @@ function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-14 lg:grid-cols-12 lg:gap-10 items-center">
         <div className="lg:col-span-6 animate-fade-up">
           <span className="inline-flex items-center gap-2 rounded-full bg-white/15 text-white ring-1 ring-white/25 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em]">
-            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 2026
+            <Sparkles className="h-3.5 w-3.5" /> Admissions Open · 2026-27
           </span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] text-white">
             Building Bright Futures Through{" "}
@@ -70,7 +70,7 @@ function Hero() {
               to="/admissions"
               className="inline-flex items-center gap-2 rounded-full bg-white text-primary font-semibold px-6 py-3 shadow-elegant hover:shadow-glow transition-all"
             >
-              Apply Now <ArrowRight className="h-4 w-4" />
+              Apply for Admission<ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               to="/contact"
@@ -81,7 +81,7 @@ function Hero() {
           </div>
           <dl className="mt-12 grid grid-cols-3 gap-6 max-w-md">
             {[
-              ["500+", "Students"],
+              ["300+", "Students"],
               ["30+", "Teachers"],
               ["4+", "Years"],
             ].map(([n, l]) => (
@@ -100,7 +100,7 @@ function Hero() {
               alt="Students learning at The M.T School System"
               width={1600}
               height={1000}
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover object-left"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/40 via-transparent to-transparent" />
           </div>
@@ -120,21 +120,102 @@ function Hero() {
   );
 }
 
+// function Welcome() {
+//   return (
+//     <section className="py-24">
+//       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+//         <span className="text-xs font-semibold uppercase tracking-[0.24em] text-secondary">Welcome</span>
+//         <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold">
+//           A revolutionary way to educate — <span className="text-gradient">since 2021</span>
+//         </h2>
+//         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
+//           The M.T School System is a student-focused institution combining a
+//           modern curriculum, safe learning environment, and qualified teachers
+//           to prepare children for a rapidly changing world. From preschool
+//           through secondary, every learner is nurtured to reach their fullest
+//           academic and personal potential.
+//         </p>
+//       </div>
+//     </section>
+//   );
+// }
+
+
 function Welcome() {
   return (
-    <section className="py-24">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-        <span className="text-xs font-semibold uppercase tracking-[0.24em] text-secondary">Welcome</span>
-        <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold">
-          A revolutionary way to educate — <span className="text-gradient">since 2021</span>
-        </h2>
-        <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-          The M.T School System is a student-focused institution combining a
-          modern curriculum, safe learning environment, and qualified teachers
-          to prepare children for a rapidly changing world. From preschool
-          through secondary, every learner is nurtured to reach their fullest
-          academic and personal potential.
-        </p>
+    <section className="py-24 bg-background">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
+
+        {/* Left Side Images */}
+        <div className="relative">
+
+          {/* Main Image */}
+          <img
+            src="/Imges/91.jpeg"
+            alt="Students"
+            className="w-[85%] h-[520px] object-cover rounded-3xl shadow-xl"
+          />
+
+          {/* Second Image */}
+          <img
+            src="/Imges/93.jpeg"
+            alt="School"
+            className="absolute bottom-0 right-0 w-[52%] h-[330px] object-cover rounded-3xl border-8 border-white shadow-xl"
+          />
+
+          {/* Experience Badge */}
+          <div className="absolute bottom-6 left-6 bg-primary text-white rounded-3xl px-6 py-5 shadow-lg">
+            <h3 className="text-3xl font-bold">2021</h3>
+            <p className="text-sm">Established</p>
+          </div>
+
+        </div>
+
+        {/* Right Side */}
+        <div>
+
+          <span className="text-xs font-semibold uppercase tracking-[0.24em] text-secondary">
+            Welcome
+          </span>
+
+          <h2 className="mt-3 text-4xl lg:text-5xl font-bold leading-tight">
+            A revolutionary way to educate —
+            <span className="text-gradient"> since 2021</span>
+          </h2>
+
+          <p className="mt-6 text-lg text-muted-foreground leading-8">
+            The M.T School System is a student-focused institution combining
+            modern education, a safe learning environment, and experienced
+            teachers to prepare students for a bright future.
+          </p>
+
+          <div className="mt-8 space-y-4">
+
+            <div className="flex items-center gap-3">
+              ✅ Qualified & Experienced Teachers
+            </div>
+
+            <div className="flex items-center gap-3">
+              ✅ STEM & Activity-Based Learning
+            </div>
+
+            <div className="flex items-center gap-3">
+              ✅ Safe, Friendly & Modern Campus
+            </div>
+
+          </div>
+
+       <Link
+  to="/about"
+  className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#2D299B] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#7a1b1b] hover:gap-3"
+>
+  About Us
+  <ArrowRight className="h-4 w-4" />
+</Link>
+          
+
+        </div>
+
       </div>
     </section>
   );
@@ -183,7 +264,7 @@ function WhyUs() {
 }
 
 const programs = [
-  { img: "/Imges/60.jpg", title: "Early Years", age: "Ages Ages 5-7", desc: "A joyful start with play-based learning, early literacy and social skills." },
+  { img: "/Imges/60.jpg", title: "Early Years", age: "Ages 3-5", desc: "A joyful start with play-based learning, early literacy and social skills." },
   { img: "/Imges/42.jpg", title: "Primary School", age: "Grades 1–5", desc: "Building strong foundations in literacy, numeracy, science and creativity." },
   { img: "/Imges/61.jpg", title: "Secondary School", age: "Grades 6–10", desc: "Rigorous academics, STEM electives and preparation for higher education." },
 ];
@@ -226,11 +307,13 @@ function Programs() {
 }
 
 const facilities = [
-  { img: "/Imges/58.jpeg", icon: Library, title: "Library" },
-  { img: "/Imges/56.jpg", icon: Monitor, title: "Robotics Lab" },
+  // { img: "/Imges/81.jpg", icon: Trophy, title: "Sports" },
+    { img: "/Imges/82.jpg", icon: Goal, title: "Play Area" },
+  { img: "/Imges/94.jpeg", icon: Monitor, title: "Robotics Lab" },
   { img: "/Imges/59.jpeg", icon: Beaker, title: "Science Lab" },
+
 ];
-const facilityChips = ["Smart Classrooms","Play Area","Sports Ground","CCTV Security","Clean Campus","Digital Learning"];
+// const facilityChips = ["Smart Classrooms","Play Area","Sports Ground","CCTV Security","Clean Campus","Digital Learning"];
 
 function Facilities() {
   return (
@@ -253,11 +336,18 @@ function Facilities() {
           ))}
         </div>
         <div className="mt-10 flex flex-wrap justify-center gap-2">
-          {facilityChips.map((c) => (
+          {/* {facilityChips.map((c) => (
             <span key={c} className="rounded-full bg-card border border-border px-4 py-2 text-sm text-foreground/80 shadow-soft">
               {c}
             </span>
-          ))}
+          ))} */}
+          <Link
+  to="/facilities"
+  className="mt-8 inline-flex items-center gap-2 rounded-full bg-[#2D299B] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#7a1b1b] hover:gap-3"
+>
+  See more
+  <ArrowRight className="h-4 w-4" />
+</Link>
         </div>
       </div>
     </section>
@@ -311,7 +401,7 @@ function AdmissionCTA() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Link to="/admissions" className="inline-flex items-center gap-2 rounded-full bg-white text-primary font-semibold px-6 py-3 shadow-soft hover:shadow-glow transition">
-                Apply Now <ArrowRight className="h-4 w-4" />
+                Apply for Admission<ArrowRight className="h-4 w-4" />
               </Link>
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 text-white font-semibold px-6 py-3 hover:bg-white/10 transition">
                 Contact Us

@@ -124,3 +124,11 @@
 }
 @utility animate-float-slow { animation: float-slow 7s ease-in-out infinite; }
 @utility animate-fade-up { animation: fade-up 0.7s ease-out both; }
+
+
+
+@supports (color: color-mix(in lab, red, red)) {
+    .bg-muted\/40 {
+       background-color: #F1F5FC !important;
+    }
+}

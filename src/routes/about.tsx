@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHero } from "@/components/site/PageHero";
-import { Award, Compass, Heart, Lightbulb, Shield, Target } from "lucide-react";
+import { Award, Compass, Heart, Lightbulb, Shield, Target,Eye } from "lucide-react";
 import logoAsset from "@/assets/mt-logo.asset.json";
 
 export const Route = createFileRoute("/about")({
@@ -30,7 +30,7 @@ function About() {
     <>
       <PageHero eyebrow="About Us" title="A revolutionary way to educate" subtitle="Established in 2021, The M.T School System is a modern, student-focused school in the heart of Karachi." />
 
-      <section className="py-24">
+      {/* <section className="py-24">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-6 text-lg text-foreground/85 leading-relaxed">
           <h2 className="text-3xl sm:text-4xl font-bold text-primary">Our Story</h2>
           <p>
@@ -47,9 +47,53 @@ function About() {
             lessons, and a safe campus form the foundation for lifelong learners.
           </p>
         </div>
-      </section>
+      </section> */}
 
-      <section className="py-24 bg-muted/40">
+
+      <section className="py-24">
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="grid lg:grid-cols-2 gap-14 items-center">
+
+      {/* Left Image */}
+      <div>
+        <img
+          src="/Imges/hero.jpeg" // Change to your image
+          alt="Our Story"
+          className="w-full h-[520px] object-cover rounded-3xl shadow-lg"
+        />
+      </div>
+
+      {/* Right Content */}
+      <div>
+        <span className="text-xs font-semibold uppercase tracking-[0.24em] text-secondary">
+          Our Story
+        </span>
+
+        <h2 className="mt-4 text-4xl lg:text-5xl font-bold leading-tight">
+          Nurturing Bright Futures Since{" "}
+          <span className="text-primary">2021</span>
+        </h2>
+
+        <p className="mt-8 text-lg text-muted-foreground leading-8">
+          Founded in 2021, The M.T School System was established with a vision
+          to provide quality education that combines academic excellence,
+          creativity, and character building. We believe every child deserves
+          a supportive environment where they can learn, grow, and succeed.
+        </p>
+
+        <p className="mt-6 text-lg text-muted-foreground leading-8">
+          From interactive classrooms and STEM education to sports and
+          extracurricular activities, our goal is to nurture confident,
+          responsible, and future-ready students who are prepared for tomorrow's
+          challenges.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      {/* <section className="py-24 bg-muted/40">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8">
           {[
             { title: "Our Vision", body: "To be a leading school known for academic excellence, character development, and innovation — empowering the next generation of thinkers, creators, and leaders." },
@@ -61,7 +105,89 @@ function About() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
+
+<section className="py-24 bg-muted/40">
+  <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+
+    <div className="text-center mb-14">
+      <span className="text-xs font-semibold uppercase tracking-[0.24em] text-secondary">
+        OUR FOUNDATION
+      </span>
+
+      <h2 className="mt-3 text-4xl font-bold">
+        Vision & <span className="text-primary">Mission</span>
+      </h2>
+
+      <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+        Everything we do is guided by a clear vision and a strong mission to
+        inspire every child to achieve academic excellence and become a
+        confident future leader.
+      </p>
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-8">
+
+      {/* Mission */}
+      <div className="group rounded-3xl bg-white p-8 border border-primary/10 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+
+        <div className="flex items-center gap-4">
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-r from-[#2D2984] to-[#6A5AF9]">
+            <Target className="h-7 w-7 text-white" />
+          </div>
+
+          <div>
+            <span className="text-xs uppercase tracking-widest text-primary font-semibold">
+              Our Purpose
+            </span>
+
+            <h3 className="text-2xl font-bold text-black">
+              Our Mission
+            </h3>
+          </div>
+        </div>
+
+        <p className="mt-6 text-base leading-8 text-muted-foreground">
+          To provide a safe, inclusive, and inspiring learning environment
+          where every student develops academic excellence, creativity,
+          confidence, leadership, and strong moral values through innovative
+          teaching and modern educational practices.
+        </p>
+
+      </div>
+
+      {/* Vision */}
+      <div className="group rounded-3xl bg-white p-8 border border-primary/10 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+
+        <div className="flex items-center gap-4">
+          <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-r from-[#922111] to-[#D64545]">
+            <Eye className="h-7 w-7 text-white" />
+          </div>
+
+          <div>
+            <span className="text-xs uppercase tracking-widest text-secondary font-semibold">
+              Our Future
+            </span>
+
+            <h3 className="text-2xl font-bold text-black">
+              Our Vision
+            </h3>
+          </div>
+        </div>
+
+        <p className="mt-6 text-base leading-8 text-muted-foreground">
+          To be one of Karachi's most respected educational institutions,
+          recognized for academic excellence, innovation, character building,
+          and preparing students with the knowledge and skills needed for a
+          successful future.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

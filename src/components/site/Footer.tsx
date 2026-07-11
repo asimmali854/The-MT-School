@@ -3,6 +3,20 @@ import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from "lucide-react"
 import { Logo } from "./Logo";
 
 export function Footer() {
+  const socialLinks = [
+  {
+    icon: Facebook,
+    href: "https://www.facebook.com/profile.php?id=100069105758269",
+  },
+  {
+    icon: Instagram,
+    href: "https://www.instagram.com/your-instagram-page",
+  },
+  {
+    icon: Youtube,
+    href: "https://www.youtube.com/@your-youtube-channel",
+  },
+];
   return (
     <footer className="mt-24 bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid gap-12 lg:grid-cols-4">
@@ -15,7 +29,7 @@ export function Footer() {
             A revolutionary way to educate — building bright futures through
             innovation, academic excellence, and character development.
           </p>
-          <div className="flex gap-3">
+          {/* <div className="flex gap-3">
             {[Facebook, Instagram, Youtube].map((Icon, i) => (
               <a
                 key={i}
@@ -26,7 +40,21 @@ export function Footer() {
                 <Icon className="h-4 w-4" />
               </a>
             ))}
-          </div>
+          </div> */}
+          <div className="flex gap-3">
+  {socialLinks.map(({ icon: Icon, href }, i) => (
+    <a
+      key={i}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="h-10 w-10 grid place-items-center rounded-full bg-white/10 hover:bg-white/20 transition"
+      aria-label="Social link"
+    >
+      <Icon className="h-4 w-4" />
+    </a>
+  ))}
+</div>
         </div>
 
         <div>
@@ -56,18 +84,33 @@ export function Footer() {
           <h4 className="font-semibold text-white mb-4">Contact</h4>
           <ul className="space-y-3 text-sm text-white/75">
             <li className="flex gap-3">
-              <MapPin className="h-4 w-4 shrink-0 mt-0.5 text-secondary" />
+              {/* <MapPin className="h-5 w-5 shrink-0 mt-0.5 text-secondary" /> */}
+              <div className="h-10 w-10 shrink-0 rounded-full bg-white flex items-center justify-center">
+  <MapPin className="h-5 w-5 text-primary" />
+</div>
               <span>
                 Plot # A-01,02, Block F, Zennat Villas, Abdullah Shah Ghazi Goth,
                 Scheme-33, Karachi, Pakistan
               </span>
             </li>
-            <li className="flex gap-3">
+            {/* <li className="flex gap-3">
               <Phone className="h-4 w-4 shrink-0 mt-0.5 text-secondary" />
               <a href="tel:+923063121642" className="hover:text-white">0306 3121642</a>
-            </li>
+            </li> */}
+            <li className="flex items-center gap-3">
+  <div className="h-10 w-10 shrink-0 rounded-full bg-white flex items-center justify-center">
+    <Phone className="h-5 w-5 text-primary" />
+  </div>
+
+  <a href="tel:+923063121642" className="hover:text-white">
+    0306 3121642
+  </a>
+</li>
             <li className="flex gap-3">
-              <Mail className="h-4 w-4 shrink-0 mt-0.5 text-secondary" />
+              {/* <Mail className="h-4 w-4 shrink-0 mt-0.5 text-secondary" /> */}
+              <div className="h-10 w-10 shrink-0 rounded-full bg-white flex items-center justify-center">
+  <Mail className="h-5 w-5 text-primary" />
+</div>
               <a href="mailto:engr.alihassan106@gmail.com" className="hover:text-white break-all">
                 engr.alihassan106@gmail.com
               </a>

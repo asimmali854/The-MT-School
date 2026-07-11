@@ -27,6 +27,9 @@ export const Route = createFileRoute("/gallery")({
 const items = [
   { src: "/Imges/27.jpeg", cat: "Classrooms", alt: "Bright classroom" },
   { src: "/Imges/16.jpeg", cat: "Activities", alt: "STEM & robotics" },
+  { src: "/Imges/75.jpg", cat: "Activities", alt: "STEM & robotics" },
+  { src: "/Imges/74.jpg", cat: "Activities", alt: "STEM & robotics" },
+   { src: "/Imges/52.jpg", cat: "Activities", alt: "STEM & robotics" },
   { src: "/Imges/19.jpeg", cat: "Robotics Lab", alt: "Robotics lab" },
   { src: "/Imges/76.jpg", cat: "Teachers", alt: "Preschoolers" },
   { src: "/Imges/31.jpg", cat: "Classrooms", alt: "Primary classroom" },

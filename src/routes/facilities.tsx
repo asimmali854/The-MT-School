@@ -19,20 +19,20 @@ export const Route = createFileRoute("/facilities")({
 });
 
 const featured = [
-  { img: "/Imges/58.jpeg", title: "Library", desc: "Curated collection of storybooks, encyclopedias and reference material to encourage a lifelong love of reading." },
-  { img: "/Imges/56.jpg", title: "Robotics Lab", desc: "Hands-on robotics learning that inspires creativity, innovation, and problem-solving." },
+  { img: "/Imges/82.jpg", title: "Play Area", desc: "A safe and fun outdoor space where children learn, play, and grow through engaging activities." },
+  { img: "/Imges/94.jpeg", title: "Robotics Lab", desc: "Hands-on robotics learning that inspires creativity, innovation, and problem-solving." },
   { img: "/Imges/59.jpeg", title: "Science Lab", desc: "Age-appropriate equipment for hands-on experiments in physics, chemistry and biology." },
 ];
 
 const grid = [
   { icon: Sparkles, title: "Spacious Classrooms" },
   { icon: Monitor, title: "Digital Learning Tools" },
-  { icon: Library, title: "Library" },
+  { icon: Library, title: "Qualified Teachers" },
   { icon: Beaker, title: "Science Lab" },
   { icon: Cpu, title: "Computer Lab" },
   { icon: Trees, title: "Play Area" },
   { icon: Trophy, title: "Sports Facilities" },
-  { icon: Shield, title: "CCTV Security" },
+  { icon: Shield, title: "Activity Room" },
   { icon: Sprout, title: "Hygienic Campus" },
 ];
 

@@ -19,7 +19,7 @@ export const Route = createFileRoute("/academics")({
 });
 
 const levels = [
-  { img: "/Imges/60.jpg", name: "Early Years", age: "Ages 5-7", body: "A joyful start with play-based learning, phonics, early numeracy, motor skills and social development in a warm, safe environment." },
+  { img: "/Imges/60.jpg", name: "Early Years", age: "Ages 3-5", body: "A joyful start with play-based learning, phonics, early numeracy, motor skills and social development in a warm, safe environment." },
   { img: "/Imges/42.jpg", name: "Primary School", age: "Grades 1–5", body: "Strong foundations in literacy, mathematics, science and languages, complemented by arts, sports and character education." },
   { img: "/Imges/61.jpg", name: "Secondary School", age: "Grades 6–10", body: "Rigorous academics with STEM electives, digital literacy, critical thinking and preparation for higher education and life." },
 ];

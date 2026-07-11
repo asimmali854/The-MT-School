@@ -28,7 +28,7 @@ const posts = [
   { img: "/Imges/52.jpg", tag: "Celebration", date: "Mar 12", title: "Children’s Day ", desc: "A joyful celebration honoring every child's happiness, talent, and bright future." },
   { img: "/Imges/53.jpg", tag: "Celebration", date: "Apr 05", title: "Sports Day", desc: "A day of games, teamwork and school spirit for all grades." },
   { img: "/Imges/40.jpg", tag: "Celebration", date: "Apr 22", title: "Earth Day Celebration", desc: "Tree planting, awareness walks and eco-friendly projects." },
-  { img: "/Imges/20.jpeg", tag: "Competition", date: "May 10", title: "Robotics Competition", desc: "Inter-grade robotics challenge — build, code and compete." },
+  { img: "/Imges/91.jpeg", tag: "Competition", date: "May 10", title: "Robotics Competition", desc: "Inter-grade robotics challenge — build, code and compete." },
   { img: "/Imges/51.jpg", tag: "Celebration", date: "May 15", title: "Orange day", desc: "A joyful celebration with colorful activities and creative classroom learning." },
   { img: "/Imges/2.jpeg", tag: "Celebration", date: "Sep 12", title: "Eid Milad-un-Nabi (S.A.W)", desc: "A respectful gathering marking Eid Milad-un-Nabi." },
   { img: "/Imges/54.jpg", tag: "Celebration", date: "Feb 14", title: "Valentine's Day — Kindness Day", desc: "Spreading kindness and appreciation across our campus." },

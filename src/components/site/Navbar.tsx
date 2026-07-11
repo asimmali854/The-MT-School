@@ -49,7 +49,7 @@ export function Navbar() {
             to="/admissions"
             className="ml-2 inline-flex items-center rounded-full gradient-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 shadow-soft hover:shadow-glow transition-shadow"
           >
-            Apply Now
+           Apply for Admission
           </Link>
         </nav>
         <button
@@ -79,7 +79,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex justify-center rounded-full gradient-primary text-primary-foreground font-semibold px-5 py-3"
             >
-              Apply Now
+              Apply for Admission
             </Link>
           </nav>
         </div>
