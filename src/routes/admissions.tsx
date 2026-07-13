@@ -93,13 +93,19 @@ function Admissions() {
 />
 <input
   type="hidden"
+  name="from_name"
+  value="MT School System Website"
+/>
+
+<input
+  type="hidden"
   name="subject"
-  value="New Contact Form Submission"
+  value="New Admission Inquiry - MT School System"
 />
 <input
   type="hidden"
-  name="form_type"
-  value="Contact Form"
+  name="redirect"
+  value="https://yourwebsite.com/thank-you"
 />
             
             <div className="grid sm:grid-cols-2 gap-4">
