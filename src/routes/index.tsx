@@ -79,11 +79,7 @@ function Hero() {
               Contact Us
             </Link>
           </div>
-           <div className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-white/10 backdrop-blur border border-gold/40 px-4 py-2 text-sm font-semibold shadow-elegant">
-            <ShieldCheck className="h-4 w-4 text-gold" />
-            <span className="text-gold">100%</span>
-            <span className="opacity-90">Board Registered</span>
-          </div>
+        
           <dl className="mt-12 grid grid-cols-3 gap-6 max-w-md">
             {[
               ["300+", "Students"],
@@ -113,10 +109,16 @@ function Hero() {
             <img src="/Imges/76.png" alt="STEM & robotics" width={1400} height={300} loading="lazy" className="h-40 w-full object-cover" />
           </div>
           <div className="hidden sm:flex absolute -top-6 -right-6 items-center gap-3 rounded-2xl glass px-4 py-3 shadow-soft">
-            <img src="/Imges/90.jpeg" alt="" className="h-10 w-10 rounded-full" />
+            <img src="/Imges/icon1.png" alt="" className="h-10 w-10 rounded-full" />
             <div className="text-xs">
-              <div className="font-semibold text-primary">Est. 2021</div>
-              <div className="text-muted-foreground">Karachi, Pakistan</div>
+              <div>
+ <div className="text-lg font-semibold text-[#000] leading-none">
+    100%
+  </div>
+  <div className="text-base font-normal text-[#505466]">
+    Board Registered
+  </div>
+</div>
             </div>
           </div>
         </div>
