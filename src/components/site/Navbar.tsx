@@ -49,7 +49,7 @@ export function Navbar() {
             to="/admissions"
             className="ml-2 inline-flex items-center rounded-full gradient-primary text-primary-foreground text-sm font-semibold px-5 py-2.5 shadow-soft hover:shadow-glow transition-shadow"
           >
-           Apply for Admission
+           Apply For Admission
           </Link>
         </nav>
         <button
