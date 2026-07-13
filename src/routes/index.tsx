@@ -65,6 +65,15 @@ function Hero() {
             excellence, and character development — a revolutionary way to
             educate in the heart of Karachi.
           </p>
+          {/* Mobile Only - Board Registered */}
+<div className="mt-6 flex justify-start sm:hidden">
+  <div className="inline-flex items-center gap-2 rounded-full border border-[#505466] px-4 py-2">
+    <ShieldCheck className="h-4 w-4 text-white" />
+    <span className="text-sm font-medium text-white">
+      100% Board Registered
+    </span>
+  </div>
+</div>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/admissions"
