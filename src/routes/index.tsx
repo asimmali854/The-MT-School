@@ -401,7 +401,7 @@ function AdmissionCTA() {
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Link to="/admissions" className="inline-flex items-center gap-2 rounded-full bg-white text-primary font-semibold px-6 py-3 shadow-soft hover:shadow-glow transition">
-                Apply for Admission<ArrowRight className="h-4 w-4" />
+                Apply For Admission<ArrowRight className="h-4 w-4" />
               </Link>
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full border-2 border-white/40 text-white font-semibold px-6 py-3 hover:bg-white/10 transition">
                 Contact Us
