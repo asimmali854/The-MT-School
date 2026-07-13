@@ -70,7 +70,7 @@ function Hero() {
               to="/admissions"
               className="inline-flex items-center gap-2 rounded-full bg-white text-primary font-semibold px-6 py-3 shadow-elegant hover:shadow-glow transition-all"
             >
-              Apply for Admission<ArrowRight className="h-4 w-4" />
+              Apply For Admission<ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               to="/contact"
