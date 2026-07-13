@@ -79,7 +79,7 @@ export function Navbar() {
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex justify-center rounded-full gradient-primary text-primary-foreground font-semibold px-5 py-3"
             >
-              Apply for Admission
+              Apply For Admission
             </Link>
           </nav>
         </div>
