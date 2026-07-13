@@ -79,6 +79,11 @@ function Hero() {
               Contact Us
             </Link>
           </div>
+           <div className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-white/10 backdrop-blur border border-gold/40 px-4 py-2 text-sm font-semibold shadow-elegant">
+            <ShieldCheck className="h-4 w-4 text-gold" />
+            <span className="text-gold">100%</span>
+            <span className="opacity-90">Board Registered</span>
+          </div>
           <dl className="mt-12 grid grid-cols-3 gap-6 max-w-md">
             {[
               ["300+", "Students"],
